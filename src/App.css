@@ -1,0 +1,64 @@
+.linha{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-flex;
+  overflow:auto;
+}
+.semestre{
+  width: 12%;
+  height: 700px;
+  display:block;
+  background-color:#C0D9D9;
+}
+
+.materia{
+  border-radius: 5px;
+  margin: 0 auto 10px auto;
+  background-color: #79CDCD;
+  color: #111111;
+  margin-left: 5px;
+  padding: 2px 0px 5px 5px;
+  border-style: solid;
+  border-color:#5F9F9F;
+  text-align:center;
+}
+.materia.liberada{
+  background-color:rgb(204, 245, 207);
+}
+.materia.perdeu{
+  background-color:#e4605e;
+}
+.materia.passou{
+  background-color:rgb(124, 207, 134);
+}
+.materia.bloqueada{
+  background-color:#e59291;
+}
+.semestreTag{
+  text-align:center;
+  background-color: #5F9F9F;
+  margin: 0;
+  margin-bottom: 2px;
+  padding: 5px 5px 10px 0;
+  font-weight: bold;
+}
+.botao{
+  padding: 1px 3px;
+  border-radius: 5px;
+  border:none;
+  margin-left: 3px;
+  border-style: solid;
+  border-width: 0.4px;
+}
+.botao.passou{
+  background-color:rgb(124, 207, 134);
+  border-color:green;
+}
+.botao.perdeu{
+  background-color:#e05e5c;
+  border-color: red;
+}
+.codigo{
+  font-size:10px;
+  font-weight:bold;
+}
